@@ -2,13 +2,16 @@
 
 💸 A Java Swing GUI application with MySQL integration for tracking personal finances.
 
-Core Features
+
+
+**Core Features**
 1. User Authentication
 🔐 Secure Login/Logout with username & password
 
 📝 New User Registration with validation
 
 👤 User-Specific Data Isolation (each user sees only their expenses)
+
 
 2. Expense Management
 ➕ Add Expenses (category, amount, date, description)
@@ -27,6 +30,7 @@ Core Features
 
 💰 Amount Range
 
+
 3. Reporting & Analytics
 📊 Daily/Monthly Summaries (visual charts)
 
@@ -34,12 +38,15 @@ Core Features
 
 📤 Export Reports to PDF/Excel
 
+
 4. Admin Dashboard (Optional)
 👥 Manage Users (view/delete accounts)
 
 📉 System Analytics (total users, expenses, etc.)
 
-Technical Highlights
+
+
+**Technical Highlights**
 Frontend: Java Swing (GUI)
 
 Backend: MySQL Database
@@ -48,21 +55,30 @@ Security: Password protection (hashing in production)
 
 Validation: Input checks for amounts/dates
 
-How to Run
+
+
+**How to Run**
+
 Setup MySQL with provided schema.
 
 Update DBConnection.java with your credentials.
 
 Launch LoginForm.java to start.
 
-Future Enhancements
+
+
+**Future Enhancements**
+
 📱 Mobile Sync (Android app)
 
 💳 Bank Integration (auto-import transactions)
 
 🔔 Budget Alerts (spending limits)
 
-Why This Project?
+
+
+**Why This Project?**
+
 Ideal for Java learners to practice GUI + database integration
 
 Demonstrates clean architecture (MVC pattern)
