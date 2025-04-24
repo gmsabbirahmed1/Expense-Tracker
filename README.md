@@ -1,4 +1,5 @@
-Expense Management System
+**Expense Management System**
+
 💸 A Java Swing GUI application with MySQL integration for tracking personal finances.
 
 Core Features
